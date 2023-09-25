@@ -29,8 +29,10 @@ const data = [
 
 class Dashboard extends Component {
   state = {
-    loading: false,
-    focused: null
+    loading: true,
+    focused: null,
+    photos: [],
+    topics: []
   };
 
   selectPanel(id) {
